@@ -39,6 +39,18 @@ current flows through its emitter generating the voltage across the resistance c
 	Keep Jumper JP8 towards sine position.
 	Keep Intensity control pot P2 towards minimum position.
 	Feed about 2Vpp sinusoidal signal of 1 KHz from the function generator to the IN post of Analog Buffer.
+	Connect the output post OUT of Analog Buffer to the post TX IN of Transmitter.
+	Slightly unscrew the cap of SFH756V (660nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
+	Connect the other end of the Fiber to detector SFH350V (Photo Transistor Detector) very carefully.
+	Observe the detected signal at post ANALOG OUT on oscilloscope. Adjust Intensity control pot P2 Optical Power control potentiometer so that you receive signal of 2Vpp amplitude.
+	To measure the analog bandwidths of the phototransistor vary the input signal frequency and observe the detected signal at various frequencies.
+	Plot the detected signal against applied signal frequency and from the plot determine the 3dB down frequency.
+	Keep switch SW9 towards TX2 position.
+	Keep Jumper JP7 towards +12V position.
+	Remove fiber cable from SFH756V (660nm) and slightly unscrew the cap of SFH450V (950nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
+	Observe the detected signal at post ANALOG OUT on oscilloscope.
+
+
 
 
 ---
